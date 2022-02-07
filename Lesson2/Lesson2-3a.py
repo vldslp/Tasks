@@ -8,4 +8,4 @@ elif mo <= 5:
 elif mo <= 8:
     print('На дворе', se[2])
 elif mo <= 11:
-    print('На дворе', se[2])
+    print('На дворе', se[3])
