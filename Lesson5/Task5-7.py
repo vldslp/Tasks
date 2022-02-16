@@ -1,4 +1,4 @@
-with open('Task5-7in.txt', 'r') as com_obj:
+with open('Task5-7in.txt', encoding='utf-8') as com_obj:
     p_l = []
     pr_l = []
     sum_l = []
@@ -16,5 +16,5 @@ with open('Task5-7in.txt', 'r') as com_obj:
 
 import json
 
-with open('Task5-7out.json', 'w') as out_jsn:
+with open('Task5-7out.json', 'w', encoding='utf-8') as out_jsn:
     json.dump(summary, out_jsn)

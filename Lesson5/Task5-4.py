@@ -1,4 +1,4 @@
-﻿with open('Task5-4in.txt') as t_obj:
+﻿with open('Task5-4in.txt', encoding='utf-8') as t_obj:
     n_list, m_list = [], []
     ch_dict = {'One': 'Один', 'Two': 'Два', 'Three': 'Три', 'Four': 'Четыре'}
     i = 0
@@ -11,5 +11,5 @@
                 m_list.extend(n_list)
                 break
 
-with open('Task5-4out.txt', 'w') as out_obj:
+with open('Task5-4out.txt', 'w', encoding='utf-8') as out_obj:
     out_obj.writelines(m_list)

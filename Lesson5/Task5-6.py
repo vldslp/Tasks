@@ -1,4 +1,4 @@
-﻿with open('Task5-6.txt', 'r') as inf_obj:
+﻿with open('Task5-6.txt', encoding='utf-8') as inf_obj:
     for line in inf_obj:
         inf_list = line.split()
         dis = inf_list[0].removesuffix(':')

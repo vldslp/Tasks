@@ -1,4 +1,4 @@
-with open('Task5-3.txt') as b_obj:
+with open('Task5-3.txt', encoding='utf-8') as b_obj:
     sr = 0
     zz = []
     for line in b_obj:

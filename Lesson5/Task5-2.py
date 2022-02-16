@@ -1,4 +1,4 @@
-with open('Task5-2.txt') as st:
+with open('Task5-2.txt', encoding='utf-8') as st:
     i = 0
     for line in st:
         line = line.split()
