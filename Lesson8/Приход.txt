@@ -1,0 +1,9 @@
+printer;Epson;5600;черный;11
+printer;HP;7700;белый;13
+printer;Oki;10600;серый;5
+scaner;Plustek;12500;книжный;15
+scaner;Canon;19000;протяжный;10
+scaner;Mustek;5700;ручной;8
+copier;Canon;16100;500;12
+copier;Xerox;35000;1500;9
+copier;Kyocera;28000;1000;12
